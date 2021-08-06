@@ -1,0 +1,1460 @@
+[Root]
+Most Recent Package=NOVOME
+
+
+[Package|Consulta Prévia Online|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Online\instala
+
+[Package|Consulta Prévia Online|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Consulta Prévia Online|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Consulta Prévia Online|Files Found]
+
+[Package|Consulta Prévia Online|Files Released]
+
+[Package|Consulta Prévia Online|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado27.tlb=
+C:\Online\FonteCidadao\IBOLE.dll=
+
+[Package|Consulta Prévia Online|Out-of-Date Dependency Information]
+
+[Package|Consulta Prévia Online|Files Added]
+c:\online\fontecidadao\ibole.dll=
+
+[Package|Consulta Prévia Online|Files Removed]
+
+[Package|Consulta Prévia Online|Files In Project]
+C:\Online\FonteCidadao\SUCESSO.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado27.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\vb6stkit.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Online\FonteCidadao\IBOLE.dll=Yes
+
+[Package|Consulta Prévia Online|Configure Registry Files]
+Applicable=No
+
+[Package|Consulta Prévia Online|Configure Remote Servers]
+Applicable=No
+
+[Package|Consulta Prévia Online|Install Locations]
+C:\Online\FonteCidadao\SUCESSO.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado27.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\vb6stkit.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Online\FonteCidadao\IBOLE.dll=$(WinSysPath)
+
+[Package|Consulta Prévia Online|Configure Shared Files]
+Applicable=Yes
+C:\Online\FonteCidadao\SUCESSO.exe=Yes
+
+[Package|Consulta Prévia Online|Distribution]
+Type=single
+Size=1.44 MB
+Title=PMU - Consulta Prévia Online
+
+[Package|Consulta Prévia Online|IconGroups]
+Group0=PMU
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Consulta Prévia Online|PMU]
+Icon1=SUCESSO.exe
+Title1=Consulta Prévia Online
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Consulta Prévia Online|Package]
+PackageFolder=C:\Online\instala
+ProjectFolder=C:\Online\FonteCidadao
+ServerSideCab=
+File1=C:\Online\instala\setup.exe
+File2=C:\Online\instala\Setup.Lst
+File3=C:\Online\instala\SUCESSO.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|PMU|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PMU\instala
+
+[Package|PMU|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PMU|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PMU|Files Found]
+
+[Package|PMU|Files Released]
+
+[Package|PMU|Missing Dependency Information]
+
+[Package|PMU|Out-of-Date Dependency Information]
+
+[Package|PMU|Files Added]
+C:\PMU\ISAIAS1.gif=
+C:\PMU\antigos.dat=
+C:\PMU\atividades.dat=
+C:\PMU\lei.dat=
+C:\PMU\Logradouros.dat=
+C:\PMU\observacoes.dat=
+C:\PMU\permissoes.dat=
+C:\PMU\tipos.dat=
+C:\PMU\trechos.dat=
+C:\PMU\usos.dat=
+
+[Package|PMU|Files Removed]
+
+[Package|PMU|Files In Project]
+C:\PMU\Consulta.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\vb6stkit.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\PMU\ISAIAS1.gif=Yes
+C:\PMU\antigos.dat=Yes
+C:\PMU\atividades.dat=Yes
+C:\PMU\lei.dat=Yes
+C:\PMU\Logradouros.dat=Yes
+C:\PMU\observacoes.dat=Yes
+C:\PMU\permissoes.dat=Yes
+C:\PMU\tipos.dat=Yes
+C:\PMU\trechos.dat=Yes
+C:\PMU\usos.dat=Yes
+
+[Package|PMU|Configure Registry Files]
+Applicable=No
+
+[Package|PMU|Configure Remote Servers]
+Applicable=No
+
+[Package|PMU|Install Locations]
+C:\PMU\Consulta.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\vb6stkit.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\PMU\ISAIAS1.gif=$(AppPath)
+C:\PMU\antigos.dat=$(AppPath)
+C:\PMU\atividades.dat=$(AppPath)
+C:\PMU\lei.dat=$(AppPath)
+C:\PMU\Logradouros.dat=$(AppPath)
+C:\PMU\observacoes.dat=$(AppPath)
+C:\PMU\permissoes.dat=$(AppPath)
+C:\PMU\tipos.dat=$(AppPath)
+C:\PMU\trechos.dat=$(AppPath)
+C:\PMU\usos.dat=$(AppPath)
+
+[Package|PMU|Configure Shared Files]
+Applicable=Yes
+C:\PMU\Consulta.exe=Yes
+C:\PMU\ISAIAS1.gif=Yes
+C:\PMU\antigos.dat=Yes
+C:\PMU\atividades.dat=Yes
+C:\PMU\lei.dat=Yes
+C:\PMU\Logradouros.dat=Yes
+C:\PMU\observacoes.dat=Yes
+C:\PMU\permissoes.dat=Yes
+C:\PMU\tipos.dat=Yes
+C:\PMU\trechos.dat=Yes
+C:\PMU\usos.dat=Yes
+
+[Package|PMU|Distribution]
+Type=single
+Size=
+Title=PMU - Consulta Prévia
+
+[Package|PMU|IconGroups]
+Group0=PMU - Consulta Prévia
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|PMU|PMU - Consulta Prévia]
+Icon1=Consulta.exe
+Title1=PMU - Consulta Prévia
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PMU|Package]
+PackageFolder=C:\PMU\instala
+ProjectFolder=C:\PMU
+ServerSideCab=
+File1=C:\PMU\instala\setup.exe
+File2=C:\PMU\instala\Setup.Lst
+File3=C:\PMU\instala\Consulta.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|nova fcp|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\INSTALA
+
+[Package|nova fcp|Configure DAO ISAMs]
+Applicable=No
+
+[Package|nova fcp|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|nova fcp|Files Found]
+
+[Package|nova fcp|Files Released]
+
+[Package|nova fcp|Missing Dependency Information]
+
+[Package|nova fcp|Out-of-Date Dependency Information]
+
+[Package|nova fcp|Files Added]
+C:\Pmu3012\IMAGENS\D1711.gif=
+C:\Pmu3012\IMAGENS\D1712.gif=
+C:\Pmu3012\IMAGENS\D1713.gif=
+C:\Pmu3012\IMAGENS\D1714.gif=
+C:\Pmu3012\IMAGENS\D1715.gif=
+C:\Pmu3012\IMAGENS\D1716.gif=
+C:\Pmu3012\IMAGENS\D1717.gif=
+C:\Pmu3012\IMAGENS\D1718.gif=
+C:\Pmu3012\IMAGENS\D1719.gif=
+C:\Pmu3012\IMAGENS\D1720.gif=
+C:\Pmu3012\IMAGENS\D1721.gif=
+C:\Pmu3012\IMAGENS\D1722.gif=
+C:\Pmu3012\IMAGENS\D1723.gif=
+C:\Pmu3012\IMAGENS\D1724.gif=
+C:\Pmu3012\IMAGENS\D1726.gif=
+C:\Pmu3012\IMAGENS\D1727.gif=
+C:\Pmu3012\IMAGENS\D1728.gif=
+C:\Pmu3012\IMAGENS\D1729.gif=
+C:\Pmu3012\IMAGENS\D1730.gif=
+C:\Pmu3012\IMAGENS\D1731.gif=
+C:\Pmu3012\IMAGENS\D1732.gif=
+C:\Pmu3012\IMAGENS\D1810.gif=
+C:\Pmu3012\IMAGENS\D1811.gif=
+C:\Pmu3012\IMAGENS\D1812.gif=
+C:\Pmu3012\IMAGENS\D1813.gif=
+C:\Pmu3012\IMAGENS\D1814.gif=
+C:\Pmu3012\IMAGENS\D1815.gif=
+C:\Pmu3012\IMAGENS\D1816.gif=
+C:\Pmu3012\IMAGENS\D1817.gif=
+C:\Pmu3012\IMAGENS\D1818.gif=
+C:\Pmu3012\IMAGENS\D1819.gif=
+C:\Pmu3012\IMAGENS\D1820.gif=
+C:\Pmu3012\IMAGENS\D1821.gif=
+C:\Pmu3012\IMAGENS\D1822.gif=
+C:\Pmu3012\IMAGENS\D1823.gif=
+C:\Pmu3012\IMAGENS\D1824.gif=
+C:\Pmu3012\IMAGENS\D1825.gif=
+C:\Pmu3012\IMAGENS\D1826.gif=
+C:\Pmu3012\IMAGENS\D1827.gif=
+C:\Pmu3012\IMAGENS\D1828.gif=
+C:\Pmu3012\IMAGENS\D1829.gif=
+C:\Pmu3012\IMAGENS\D1830.gif=
+C:\Pmu3012\IMAGENS\D1831.gif=
+C:\Pmu3012\IMAGENS\D1832.gif=
+C:\Pmu3012\IMAGENS\D1833.gif=
+C:\Pmu3012\IMAGENS\D1834.gif=
+C:\Pmu3012\IMAGENS\D1910.gif=
+C:\Pmu3012\IMAGENS\D1911.gif=
+C:\Pmu3012\IMAGENS\D1912.gif=
+C:\Pmu3012\IMAGENS\D1913.gif=
+C:\Pmu3012\IMAGENS\D1914.gif=
+C:\Pmu3012\IMAGENS\D1915.gif=
+C:\Pmu3012\IMAGENS\D1916.gif=
+C:\Pmu3012\IMAGENS\D1917.gif=
+C:\Pmu3012\IMAGENS\D1918.gif=
+C:\Pmu3012\IMAGENS\D1919.gif=
+C:\Pmu3012\IMAGENS\D1920.gif=
+C:\Pmu3012\IMAGENS\D1921.gif=
+C:\Pmu3012\IMAGENS\D1922.gif=
+C:\Pmu3012\IMAGENS\D1923.gif=
+C:\Pmu3012\IMAGENS\D1924.gif=
+C:\Pmu3012\IMAGENS\D1925.gif=
+C:\Pmu3012\IMAGENS\D1926.gif=
+C:\Pmu3012\IMAGENS\D1927.gif=
+C:\Pmu3012\IMAGENS\D1928.gif=
+C:\Pmu3012\IMAGENS\D1929.gif=
+C:\Pmu3012\IMAGENS\D1930.gif=
+C:\Pmu3012\IMAGENS\D1931.gif=
+C:\Pmu3012\IMAGENS\D1932.gif=
+C:\Pmu3012\IMAGENS\D2010.gif=
+C:\Pmu3012\IMAGENS\D2011.gif=
+C:\Pmu3012\IMAGENS\D2012.gif=
+C:\Pmu3012\IMAGENS\D2013.gif=
+C:\Pmu3012\IMAGENS\D2014.gif=
+C:\Pmu3012\IMAGENS\D2015.gif=
+C:\Pmu3012\IMAGENS\D2016.gif=
+C:\Pmu3012\IMAGENS\D2017.gif=
+C:\Pmu3012\IMAGENS\D2018.gif=
+C:\Pmu3012\IMAGENS\D2019.gif=
+C:\Pmu3012\IMAGENS\D2020.gif=
+C:\Pmu3012\IMAGENS\D2021.gif=
+C:\Pmu3012\IMAGENS\D2022.gif=
+C:\Pmu3012\IMAGENS\D2023.gif=
+C:\Pmu3012\IMAGENS\D2024.gif=
+C:\Pmu3012\IMAGENS\D2025.gif=
+C:\Pmu3012\IMAGENS\D2026.gif=
+C:\Pmu3012\IMAGENS\D2027.gif=
+C:\Pmu3012\IMAGENS\D2028.gif=
+C:\Pmu3012\IMAGENS\D2029.gif=
+C:\Pmu3012\IMAGENS\D2030.gif=
+C:\Pmu3012\IMAGENS\D2031.gif=
+C:\Pmu3012\IMAGENS\D2032.gif=
+C:\Pmu3012\IMAGENS\D2033.gif=
+C:\Pmu3012\IMAGENS\D2034.gif=
+C:\Pmu3012\IMAGENS\F1725.gif=
+
+[Package|nova fcp|Files Removed]
+
+[Package|nova fcp|Files In Project]
+C:\Pmu3012\Consulta.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Pmu3012\IMAGENS\D1711.gif=Yes
+C:\Pmu3012\IMAGENS\D1712.gif=Yes
+C:\Pmu3012\IMAGENS\D1713.gif=Yes
+C:\Pmu3012\IMAGENS\D1714.gif=Yes
+C:\Pmu3012\IMAGENS\D1715.gif=Yes
+C:\Pmu3012\IMAGENS\D1716.gif=Yes
+C:\Pmu3012\IMAGENS\D1717.gif=Yes
+C:\Pmu3012\IMAGENS\D1718.gif=Yes
+C:\Pmu3012\IMAGENS\D1719.gif=Yes
+C:\Pmu3012\IMAGENS\D1720.gif=Yes
+C:\Pmu3012\IMAGENS\D1721.gif=Yes
+C:\Pmu3012\IMAGENS\D1722.gif=Yes
+C:\Pmu3012\IMAGENS\D1723.gif=Yes
+C:\Pmu3012\IMAGENS\D1724.gif=Yes
+C:\Pmu3012\IMAGENS\D1726.gif=Yes
+C:\Pmu3012\IMAGENS\D1727.gif=Yes
+C:\Pmu3012\IMAGENS\D1728.gif=Yes
+C:\Pmu3012\IMAGENS\D1729.gif=Yes
+C:\Pmu3012\IMAGENS\D1730.gif=Yes
+C:\Pmu3012\IMAGENS\D1731.gif=Yes
+C:\Pmu3012\IMAGENS\D1732.gif=Yes
+C:\Pmu3012\IMAGENS\D1810.gif=Yes
+C:\Pmu3012\IMAGENS\D1811.gif=Yes
+C:\Pmu3012\IMAGENS\D1812.gif=Yes
+C:\Pmu3012\IMAGENS\D1813.gif=Yes
+C:\Pmu3012\IMAGENS\D1814.gif=Yes
+C:\Pmu3012\IMAGENS\D1815.gif=Yes
+C:\Pmu3012\IMAGENS\D1816.gif=Yes
+C:\Pmu3012\IMAGENS\D1817.gif=Yes
+C:\Pmu3012\IMAGENS\D1818.gif=Yes
+C:\Pmu3012\IMAGENS\D1819.gif=Yes
+C:\Pmu3012\IMAGENS\D1820.gif=Yes
+C:\Pmu3012\IMAGENS\D1821.gif=Yes
+C:\Pmu3012\IMAGENS\D1822.gif=Yes
+C:\Pmu3012\IMAGENS\D1823.gif=Yes
+C:\Pmu3012\IMAGENS\D1824.gif=Yes
+C:\Pmu3012\IMAGENS\D1825.gif=Yes
+C:\Pmu3012\IMAGENS\D1826.gif=Yes
+C:\Pmu3012\IMAGENS\D1827.gif=Yes
+C:\Pmu3012\IMAGENS\D1828.gif=Yes
+C:\Pmu3012\IMAGENS\D1829.gif=Yes
+C:\Pmu3012\IMAGENS\D1830.gif=Yes
+C:\Pmu3012\IMAGENS\D1831.gif=Yes
+C:\Pmu3012\IMAGENS\D1832.gif=Yes
+C:\Pmu3012\IMAGENS\D1833.gif=Yes
+C:\Pmu3012\IMAGENS\D1834.gif=Yes
+C:\Pmu3012\IMAGENS\D1910.gif=Yes
+C:\Pmu3012\IMAGENS\D1911.gif=Yes
+C:\Pmu3012\IMAGENS\D1912.gif=Yes
+C:\Pmu3012\IMAGENS\D1913.gif=Yes
+C:\Pmu3012\IMAGENS\D1914.gif=Yes
+C:\Pmu3012\IMAGENS\D1915.gif=Yes
+C:\Pmu3012\IMAGENS\D1916.gif=Yes
+C:\Pmu3012\IMAGENS\D1917.gif=Yes
+C:\Pmu3012\IMAGENS\D1918.gif=Yes
+C:\Pmu3012\IMAGENS\D1919.gif=Yes
+C:\Pmu3012\IMAGENS\D1920.gif=Yes
+C:\Pmu3012\IMAGENS\D1921.gif=Yes
+C:\Pmu3012\IMAGENS\D1922.gif=Yes
+C:\Pmu3012\IMAGENS\D1923.gif=Yes
+C:\Pmu3012\IMAGENS\D1924.gif=Yes
+C:\Pmu3012\IMAGENS\D1925.gif=Yes
+C:\Pmu3012\IMAGENS\D1926.gif=Yes
+C:\Pmu3012\IMAGENS\D1927.gif=Yes
+C:\Pmu3012\IMAGENS\D1928.gif=Yes
+C:\Pmu3012\IMAGENS\D1929.gif=Yes
+C:\Pmu3012\IMAGENS\D1930.gif=Yes
+C:\Pmu3012\IMAGENS\D1931.gif=Yes
+C:\Pmu3012\IMAGENS\D1932.gif=Yes
+C:\Pmu3012\IMAGENS\D2010.gif=Yes
+C:\Pmu3012\IMAGENS\D2011.gif=Yes
+C:\Pmu3012\IMAGENS\D2012.gif=Yes
+C:\Pmu3012\IMAGENS\D2013.gif=Yes
+C:\Pmu3012\IMAGENS\D2014.gif=Yes
+C:\Pmu3012\IMAGENS\D2015.gif=Yes
+C:\Pmu3012\IMAGENS\D2016.gif=Yes
+C:\Pmu3012\IMAGENS\D2017.gif=Yes
+C:\Pmu3012\IMAGENS\D2018.gif=Yes
+C:\Pmu3012\IMAGENS\D2019.gif=Yes
+C:\Pmu3012\IMAGENS\D2020.gif=Yes
+C:\Pmu3012\IMAGENS\D2021.gif=Yes
+C:\Pmu3012\IMAGENS\D2022.gif=Yes
+C:\Pmu3012\IMAGENS\D2023.gif=Yes
+C:\Pmu3012\IMAGENS\D2024.gif=Yes
+C:\Pmu3012\IMAGENS\D2025.gif=Yes
+C:\Pmu3012\IMAGENS\D2026.gif=Yes
+C:\Pmu3012\IMAGENS\D2027.gif=Yes
+C:\Pmu3012\IMAGENS\D2028.gif=Yes
+C:\Pmu3012\IMAGENS\D2029.gif=Yes
+C:\Pmu3012\IMAGENS\D2030.gif=Yes
+C:\Pmu3012\IMAGENS\D2031.gif=Yes
+C:\Pmu3012\IMAGENS\D2032.gif=Yes
+C:\Pmu3012\IMAGENS\D2033.gif=Yes
+C:\Pmu3012\IMAGENS\D2034.gif=Yes
+C:\Pmu3012\IMAGENS\F1725.gif=Yes
+
+[Package|nova fcp|Configure Registry Files]
+Applicable=No
+
+[Package|nova fcp|Configure Remote Servers]
+Applicable=No
+
+[Package|nova fcp|Install Locations]
+C:\Pmu3012\Consulta.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Pmu3012\IMAGENS\D1711.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1712.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1713.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1714.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1715.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1716.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1717.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1718.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1719.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1720.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1721.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1722.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1723.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1724.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1726.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1727.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1728.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1729.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1730.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1731.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1732.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1810.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1811.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1812.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1813.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1814.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1815.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1816.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1817.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1818.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1819.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1820.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1821.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1822.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1823.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1824.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1825.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1826.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1827.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1828.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1829.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1830.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1831.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1832.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1833.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1834.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1910.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1911.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1912.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1913.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1914.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1915.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1916.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1917.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1918.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1919.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1920.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1921.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1922.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1923.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1924.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1925.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1926.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1927.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1928.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1929.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1930.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1931.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1932.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2010.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2011.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2012.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2013.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2014.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2015.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2016.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2017.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2018.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2019.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2020.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2021.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2022.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2023.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2024.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2025.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2026.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2027.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2028.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2029.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2030.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2031.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2032.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2033.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2034.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\F1725.gif=$(AppPath)
+
+[Package|nova fcp|Configure Shared Files]
+Applicable=Yes
+C:\Pmu3012\Consulta.exe=Yes
+C:\Pmu3012\IMAGENS\D1711.gif=No
+C:\Pmu3012\IMAGENS\D1712.gif=No
+C:\Pmu3012\IMAGENS\D1713.gif=No
+C:\Pmu3012\IMAGENS\D1714.gif=No
+C:\Pmu3012\IMAGENS\D1715.gif=No
+C:\Pmu3012\IMAGENS\D1716.gif=No
+C:\Pmu3012\IMAGENS\D1717.gif=No
+C:\Pmu3012\IMAGENS\D1718.gif=No
+C:\Pmu3012\IMAGENS\D1719.gif=No
+C:\Pmu3012\IMAGENS\D1720.gif=No
+C:\Pmu3012\IMAGENS\D1721.gif=No
+C:\Pmu3012\IMAGENS\D1722.gif=No
+C:\Pmu3012\IMAGENS\D1723.gif=No
+C:\Pmu3012\IMAGENS\D1724.gif=No
+C:\Pmu3012\IMAGENS\D1726.gif=No
+C:\Pmu3012\IMAGENS\D1727.gif=No
+C:\Pmu3012\IMAGENS\D1728.gif=No
+C:\Pmu3012\IMAGENS\D1729.gif=No
+C:\Pmu3012\IMAGENS\D1730.gif=No
+C:\Pmu3012\IMAGENS\D1731.gif=No
+C:\Pmu3012\IMAGENS\D1732.gif=No
+C:\Pmu3012\IMAGENS\D1810.gif=No
+C:\Pmu3012\IMAGENS\D1811.gif=No
+C:\Pmu3012\IMAGENS\D1812.gif=No
+C:\Pmu3012\IMAGENS\D1813.gif=No
+C:\Pmu3012\IMAGENS\D1814.gif=No
+C:\Pmu3012\IMAGENS\D1815.gif=No
+C:\Pmu3012\IMAGENS\D1816.gif=No
+C:\Pmu3012\IMAGENS\D1817.gif=No
+C:\Pmu3012\IMAGENS\D1818.gif=No
+C:\Pmu3012\IMAGENS\D1819.gif=No
+C:\Pmu3012\IMAGENS\D1820.gif=No
+C:\Pmu3012\IMAGENS\D1821.gif=No
+C:\Pmu3012\IMAGENS\D1822.gif=No
+C:\Pmu3012\IMAGENS\D1823.gif=No
+C:\Pmu3012\IMAGENS\D1824.gif=No
+C:\Pmu3012\IMAGENS\D1825.gif=No
+C:\Pmu3012\IMAGENS\D1826.gif=No
+C:\Pmu3012\IMAGENS\D1827.gif=No
+C:\Pmu3012\IMAGENS\D1828.gif=No
+C:\Pmu3012\IMAGENS\D1829.gif=No
+C:\Pmu3012\IMAGENS\D1830.gif=No
+C:\Pmu3012\IMAGENS\D1831.gif=No
+C:\Pmu3012\IMAGENS\D1832.gif=No
+C:\Pmu3012\IMAGENS\D1833.gif=No
+C:\Pmu3012\IMAGENS\D1834.gif=No
+C:\Pmu3012\IMAGENS\D1910.gif=No
+C:\Pmu3012\IMAGENS\D1911.gif=No
+C:\Pmu3012\IMAGENS\D1912.gif=No
+C:\Pmu3012\IMAGENS\D1913.gif=No
+C:\Pmu3012\IMAGENS\D1914.gif=No
+C:\Pmu3012\IMAGENS\D1915.gif=No
+C:\Pmu3012\IMAGENS\D1916.gif=No
+C:\Pmu3012\IMAGENS\D1917.gif=No
+C:\Pmu3012\IMAGENS\D1918.gif=No
+C:\Pmu3012\IMAGENS\D1919.gif=No
+C:\Pmu3012\IMAGENS\D1920.gif=No
+C:\Pmu3012\IMAGENS\D1921.gif=No
+C:\Pmu3012\IMAGENS\D1922.gif=No
+C:\Pmu3012\IMAGENS\D1923.gif=No
+C:\Pmu3012\IMAGENS\D1924.gif=No
+C:\Pmu3012\IMAGENS\D1925.gif=No
+C:\Pmu3012\IMAGENS\D1926.gif=No
+C:\Pmu3012\IMAGENS\D1927.gif=No
+C:\Pmu3012\IMAGENS\D1928.gif=No
+C:\Pmu3012\IMAGENS\D1929.gif=No
+C:\Pmu3012\IMAGENS\D1930.gif=No
+C:\Pmu3012\IMAGENS\D1931.gif=No
+C:\Pmu3012\IMAGENS\D1932.gif=No
+C:\Pmu3012\IMAGENS\D2010.gif=No
+C:\Pmu3012\IMAGENS\D2011.gif=No
+C:\Pmu3012\IMAGENS\D2012.gif=No
+C:\Pmu3012\IMAGENS\D2013.gif=No
+C:\Pmu3012\IMAGENS\D2014.gif=No
+C:\Pmu3012\IMAGENS\D2015.gif=No
+C:\Pmu3012\IMAGENS\D2016.gif=No
+C:\Pmu3012\IMAGENS\D2017.gif=No
+C:\Pmu3012\IMAGENS\D2018.gif=No
+C:\Pmu3012\IMAGENS\D2019.gif=No
+C:\Pmu3012\IMAGENS\D2020.gif=No
+C:\Pmu3012\IMAGENS\D2021.gif=No
+C:\Pmu3012\IMAGENS\D2022.gif=No
+C:\Pmu3012\IMAGENS\D2023.gif=No
+C:\Pmu3012\IMAGENS\D2024.gif=No
+C:\Pmu3012\IMAGENS\D2025.gif=No
+C:\Pmu3012\IMAGENS\D2026.gif=No
+C:\Pmu3012\IMAGENS\D2027.gif=No
+C:\Pmu3012\IMAGENS\D2028.gif=No
+C:\Pmu3012\IMAGENS\D2029.gif=No
+C:\Pmu3012\IMAGENS\D2030.gif=No
+C:\Pmu3012\IMAGENS\D2031.gif=No
+C:\Pmu3012\IMAGENS\D2032.gif=No
+C:\Pmu3012\IMAGENS\D2033.gif=No
+C:\Pmu3012\IMAGENS\D2034.gif=No
+C:\Pmu3012\IMAGENS\F1725.gif=No
+
+[Package|nova fcp|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Consulta Prévia
+
+[Package|nova fcp|IconGroups]
+Group0=Consulta Prévia
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|nova fcp|Consulta Prévia]
+Icon1=Consulta.exe
+Title1=Consulta Prévia
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|nova fcp|Package]
+PackageFolder=C:\INSTALA
+ProjectFolder=C:\Pmu3012
+ServerSideCab=
+File1=C:\INSTALA\setup.exe
+File2=C:\INSTALA\Setup.Lst
+File3=C:\INSTALA\Consul1.CAB
+File4=C:\INSTALA\Consul2.CAB
+File5=C:\INSTALA\Consul3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|sucesso|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\INSTALA
+
+[Package|sucesso|Configure DAO ISAMs]
+Applicable=No
+
+[Package|sucesso|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|sucesso|Files Found]
+
+[Package|sucesso|Files Released]
+
+[Package|sucesso|Missing Dependency Information]
+
+[Package|sucesso|Out-of-Date Dependency Information]
+
+[Package|sucesso|Files Added]
+C:\Pmu3012\usos.dat=
+C:\Pmu3012\atividades.dat=
+C:\Pmu3012\lei.dat=
+C:\Pmu3012\Logradouros.dat=
+C:\Pmu3012\observacoes.dat=
+C:\Pmu3012\permissoes.dat=
+C:\Pmu3012\tipos.dat=
+C:\Pmu3012\trechos.dat=
+C:\Pmu3012\antigos.dat=
+C:\Pmu3012\IMAGENS\D1711.gif=
+C:\Pmu3012\IMAGENS\D1712.gif=
+C:\Pmu3012\IMAGENS\D1713.gif=
+C:\Pmu3012\IMAGENS\D1714.gif=
+C:\Pmu3012\IMAGENS\D1715.gif=
+C:\Pmu3012\IMAGENS\D1716.gif=
+C:\Pmu3012\IMAGENS\D1717.gif=
+C:\Pmu3012\IMAGENS\D1718.gif=
+C:\Pmu3012\IMAGENS\D1719.gif=
+C:\Pmu3012\IMAGENS\D1720.gif=
+C:\Pmu3012\IMAGENS\D1721.gif=
+C:\Pmu3012\IMAGENS\D1722.gif=
+C:\Pmu3012\IMAGENS\D1723.gif=
+C:\Pmu3012\IMAGENS\D1724.gif=
+C:\Pmu3012\IMAGENS\D1726.gif=
+C:\Pmu3012\IMAGENS\D1727.gif=
+C:\Pmu3012\IMAGENS\D1728.gif=
+C:\Pmu3012\IMAGENS\D1729.gif=
+C:\Pmu3012\IMAGENS\D1730.gif=
+C:\Pmu3012\IMAGENS\D1731.gif=
+C:\Pmu3012\IMAGENS\D1732.gif=
+C:\Pmu3012\IMAGENS\D1810.gif=
+C:\Pmu3012\IMAGENS\D1811.gif=
+C:\Pmu3012\IMAGENS\D1812.gif=
+C:\Pmu3012\IMAGENS\D1813.gif=
+C:\Pmu3012\IMAGENS\D1814.gif=
+C:\Pmu3012\IMAGENS\D1815.gif=
+C:\Pmu3012\IMAGENS\D1816.gif=
+C:\Pmu3012\IMAGENS\D1817.gif=
+C:\Pmu3012\IMAGENS\D1818.gif=
+C:\Pmu3012\IMAGENS\D1819.gif=
+C:\Pmu3012\IMAGENS\D1820.gif=
+C:\Pmu3012\IMAGENS\D1821.gif=
+C:\Pmu3012\IMAGENS\D1822.gif=
+C:\Pmu3012\IMAGENS\D1823.gif=
+C:\Pmu3012\IMAGENS\D1824.gif=
+C:\Pmu3012\IMAGENS\D1825.gif=
+C:\Pmu3012\IMAGENS\D1826.gif=
+C:\Pmu3012\IMAGENS\D1827.gif=
+C:\Pmu3012\IMAGENS\D1828.gif=
+C:\Pmu3012\IMAGENS\D1829.gif=
+C:\Pmu3012\IMAGENS\D1830.gif=
+C:\Pmu3012\IMAGENS\D1831.gif=
+C:\Pmu3012\IMAGENS\D1832.gif=
+C:\Pmu3012\IMAGENS\D1833.gif=
+C:\Pmu3012\IMAGENS\D1834.gif=
+C:\Pmu3012\IMAGENS\D1910.gif=
+C:\Pmu3012\IMAGENS\D1911.gif=
+C:\Pmu3012\IMAGENS\D1912.gif=
+C:\Pmu3012\IMAGENS\D1913.gif=
+C:\Pmu3012\IMAGENS\D1914.gif=
+C:\Pmu3012\IMAGENS\D1915.gif=
+C:\Pmu3012\IMAGENS\D1916.gif=
+C:\Pmu3012\IMAGENS\D1917.gif=
+C:\Pmu3012\IMAGENS\D1918.gif=
+C:\Pmu3012\IMAGENS\D1919.gif=
+C:\Pmu3012\IMAGENS\D1920.gif=
+C:\Pmu3012\IMAGENS\D1921.gif=
+C:\Pmu3012\IMAGENS\D1922.gif=
+C:\Pmu3012\IMAGENS\D1923.gif=
+C:\Pmu3012\IMAGENS\D1924.gif=
+C:\Pmu3012\IMAGENS\D1925.gif=
+C:\Pmu3012\IMAGENS\D1926.gif=
+C:\Pmu3012\IMAGENS\D1927.gif=
+C:\Pmu3012\IMAGENS\D1928.gif=
+C:\Pmu3012\IMAGENS\D1929.gif=
+C:\Pmu3012\IMAGENS\D1930.gif=
+C:\Pmu3012\IMAGENS\D1931.gif=
+C:\Pmu3012\IMAGENS\D1932.gif=
+C:\Pmu3012\IMAGENS\D2010.gif=
+C:\Pmu3012\IMAGENS\D2011.gif=
+C:\Pmu3012\IMAGENS\D2012.gif=
+C:\Pmu3012\IMAGENS\D2013.gif=
+C:\Pmu3012\IMAGENS\D2014.gif=
+C:\Pmu3012\IMAGENS\D2015.gif=
+C:\Pmu3012\IMAGENS\D2016.gif=
+C:\Pmu3012\IMAGENS\D2017.gif=
+C:\Pmu3012\IMAGENS\D2018.gif=
+C:\Pmu3012\IMAGENS\D2019.gif=
+C:\Pmu3012\IMAGENS\D2020.gif=
+C:\Pmu3012\IMAGENS\D2021.gif=
+C:\Pmu3012\IMAGENS\D2022.gif=
+C:\Pmu3012\IMAGENS\D2023.gif=
+C:\Pmu3012\IMAGENS\D2024.gif=
+C:\Pmu3012\IMAGENS\D2025.gif=
+C:\Pmu3012\IMAGENS\D2026.gif=
+C:\Pmu3012\IMAGENS\D2027.gif=
+C:\Pmu3012\IMAGENS\D2028.gif=
+C:\Pmu3012\IMAGENS\D2029.gif=
+C:\Pmu3012\IMAGENS\D2030.gif=
+C:\Pmu3012\IMAGENS\D2031.gif=
+C:\Pmu3012\IMAGENS\D2032.gif=
+C:\Pmu3012\IMAGENS\D2033.gif=
+C:\Pmu3012\IMAGENS\D2034.gif=
+C:\Pmu3012\IMAGENS\F1725.gif=
+
+[Package|sucesso|Files Removed]
+
+[Package|sucesso|Files In Project]
+C:\Pmu3012\Consulta.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Pmu3012\usos.dat=Yes
+C:\Pmu3012\atividades.dat=Yes
+C:\Pmu3012\lei.dat=Yes
+C:\Pmu3012\Logradouros.dat=Yes
+C:\Pmu3012\observacoes.dat=Yes
+C:\Pmu3012\permissoes.dat=Yes
+C:\Pmu3012\tipos.dat=Yes
+C:\Pmu3012\trechos.dat=Yes
+C:\Pmu3012\antigos.dat=Yes
+C:\Pmu3012\IMAGENS\D1711.gif=Yes
+C:\Pmu3012\IMAGENS\D1712.gif=Yes
+C:\Pmu3012\IMAGENS\D1713.gif=Yes
+C:\Pmu3012\IMAGENS\D1714.gif=Yes
+C:\Pmu3012\IMAGENS\D1715.gif=Yes
+C:\Pmu3012\IMAGENS\D1716.gif=Yes
+C:\Pmu3012\IMAGENS\D1717.gif=Yes
+C:\Pmu3012\IMAGENS\D1718.gif=Yes
+C:\Pmu3012\IMAGENS\D1719.gif=Yes
+C:\Pmu3012\IMAGENS\D1720.gif=Yes
+C:\Pmu3012\IMAGENS\D1721.gif=Yes
+C:\Pmu3012\IMAGENS\D1722.gif=Yes
+C:\Pmu3012\IMAGENS\D1723.gif=Yes
+C:\Pmu3012\IMAGENS\D1724.gif=Yes
+C:\Pmu3012\IMAGENS\D1726.gif=Yes
+C:\Pmu3012\IMAGENS\D1727.gif=Yes
+C:\Pmu3012\IMAGENS\D1728.gif=Yes
+C:\Pmu3012\IMAGENS\D1729.gif=Yes
+C:\Pmu3012\IMAGENS\D1730.gif=Yes
+C:\Pmu3012\IMAGENS\D1731.gif=Yes
+C:\Pmu3012\IMAGENS\D1732.gif=Yes
+C:\Pmu3012\IMAGENS\D1810.gif=Yes
+C:\Pmu3012\IMAGENS\D1811.gif=Yes
+C:\Pmu3012\IMAGENS\D1812.gif=Yes
+C:\Pmu3012\IMAGENS\D1813.gif=Yes
+C:\Pmu3012\IMAGENS\D1814.gif=Yes
+C:\Pmu3012\IMAGENS\D1815.gif=Yes
+C:\Pmu3012\IMAGENS\D1816.gif=Yes
+C:\Pmu3012\IMAGENS\D1817.gif=Yes
+C:\Pmu3012\IMAGENS\D1818.gif=Yes
+C:\Pmu3012\IMAGENS\D1819.gif=Yes
+C:\Pmu3012\IMAGENS\D1820.gif=Yes
+C:\Pmu3012\IMAGENS\D1821.gif=Yes
+C:\Pmu3012\IMAGENS\D1822.gif=Yes
+C:\Pmu3012\IMAGENS\D1823.gif=Yes
+C:\Pmu3012\IMAGENS\D1824.gif=Yes
+C:\Pmu3012\IMAGENS\D1825.gif=Yes
+C:\Pmu3012\IMAGENS\D1826.gif=Yes
+C:\Pmu3012\IMAGENS\D1827.gif=Yes
+C:\Pmu3012\IMAGENS\D1828.gif=Yes
+C:\Pmu3012\IMAGENS\D1829.gif=Yes
+C:\Pmu3012\IMAGENS\D1830.gif=Yes
+C:\Pmu3012\IMAGENS\D1831.gif=Yes
+C:\Pmu3012\IMAGENS\D1832.gif=Yes
+C:\Pmu3012\IMAGENS\D1833.gif=Yes
+C:\Pmu3012\IMAGENS\D1834.gif=Yes
+C:\Pmu3012\IMAGENS\D1910.gif=Yes
+C:\Pmu3012\IMAGENS\D1911.gif=Yes
+C:\Pmu3012\IMAGENS\D1912.gif=Yes
+C:\Pmu3012\IMAGENS\D1913.gif=Yes
+C:\Pmu3012\IMAGENS\D1914.gif=Yes
+C:\Pmu3012\IMAGENS\D1915.gif=Yes
+C:\Pmu3012\IMAGENS\D1916.gif=Yes
+C:\Pmu3012\IMAGENS\D1917.gif=Yes
+C:\Pmu3012\IMAGENS\D1918.gif=Yes
+C:\Pmu3012\IMAGENS\D1919.gif=Yes
+C:\Pmu3012\IMAGENS\D1920.gif=Yes
+C:\Pmu3012\IMAGENS\D1921.gif=Yes
+C:\Pmu3012\IMAGENS\D1922.gif=Yes
+C:\Pmu3012\IMAGENS\D1923.gif=Yes
+C:\Pmu3012\IMAGENS\D1924.gif=Yes
+C:\Pmu3012\IMAGENS\D1925.gif=Yes
+C:\Pmu3012\IMAGENS\D1926.gif=Yes
+C:\Pmu3012\IMAGENS\D1927.gif=Yes
+C:\Pmu3012\IMAGENS\D1928.gif=Yes
+C:\Pmu3012\IMAGENS\D1929.gif=Yes
+C:\Pmu3012\IMAGENS\D1930.gif=Yes
+C:\Pmu3012\IMAGENS\D1931.gif=Yes
+C:\Pmu3012\IMAGENS\D1932.gif=Yes
+C:\Pmu3012\IMAGENS\D2010.gif=Yes
+C:\Pmu3012\IMAGENS\D2011.gif=Yes
+C:\Pmu3012\IMAGENS\D2012.gif=Yes
+C:\Pmu3012\IMAGENS\D2013.gif=Yes
+C:\Pmu3012\IMAGENS\D2014.gif=Yes
+C:\Pmu3012\IMAGENS\D2015.gif=Yes
+C:\Pmu3012\IMAGENS\D2016.gif=Yes
+C:\Pmu3012\IMAGENS\D2017.gif=Yes
+C:\Pmu3012\IMAGENS\D2018.gif=Yes
+C:\Pmu3012\IMAGENS\D2019.gif=Yes
+C:\Pmu3012\IMAGENS\D2020.gif=Yes
+C:\Pmu3012\IMAGENS\D2021.gif=Yes
+C:\Pmu3012\IMAGENS\D2022.gif=Yes
+C:\Pmu3012\IMAGENS\D2023.gif=Yes
+C:\Pmu3012\IMAGENS\D2024.gif=Yes
+C:\Pmu3012\IMAGENS\D2025.gif=Yes
+C:\Pmu3012\IMAGENS\D2026.gif=Yes
+C:\Pmu3012\IMAGENS\D2027.gif=Yes
+C:\Pmu3012\IMAGENS\D2028.gif=Yes
+C:\Pmu3012\IMAGENS\D2029.gif=Yes
+C:\Pmu3012\IMAGENS\D2030.gif=Yes
+C:\Pmu3012\IMAGENS\D2031.gif=Yes
+C:\Pmu3012\IMAGENS\D2032.gif=Yes
+C:\Pmu3012\IMAGENS\D2033.gif=Yes
+C:\Pmu3012\IMAGENS\D2034.gif=Yes
+C:\Pmu3012\IMAGENS\F1725.gif=Yes
+
+[Package|sucesso|Configure Registry Files]
+Applicable=No
+
+[Package|sucesso|Configure Remote Servers]
+Applicable=No
+
+[Package|sucesso|Install Locations]
+C:\Pmu3012\Consulta.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Pmu3012\usos.dat=$(AppPath)
+C:\Pmu3012\atividades.dat=$(AppPath)
+C:\Pmu3012\lei.dat=$(AppPath)
+C:\Pmu3012\Logradouros.dat=$(AppPath)
+C:\Pmu3012\observacoes.dat=$(AppPath)
+C:\Pmu3012\permissoes.dat=$(AppPath)
+C:\Pmu3012\tipos.dat=$(AppPath)
+C:\Pmu3012\trechos.dat=$(AppPath)
+C:\Pmu3012\antigos.dat=$(AppPath)
+C:\Pmu3012\IMAGENS\D1711.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1712.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1713.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1714.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1715.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1716.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1717.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1718.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1719.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1720.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1721.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1722.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1723.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1724.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1726.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1727.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1728.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1729.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1730.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1731.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1732.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1810.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1811.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1812.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1813.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1814.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1815.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1816.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1817.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1818.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1819.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1820.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1821.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1822.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1823.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1824.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1825.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1826.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1827.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1828.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1829.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1830.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1831.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1832.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1833.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1834.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1910.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1911.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1912.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1913.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1914.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1915.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1916.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1917.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1918.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1919.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1920.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1921.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1922.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1923.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1924.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1925.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1926.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1927.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1928.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1929.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1930.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1931.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D1932.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2010.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2011.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2012.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2013.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2014.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2015.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2016.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2017.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2018.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2019.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2020.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2021.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2022.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2023.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2024.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2025.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2026.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2027.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2028.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2029.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2030.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2031.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2032.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2033.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\D2034.gif=$(AppPath)
+C:\Pmu3012\IMAGENS\F1725.gif=$(AppPath)
+
+[Package|sucesso|Configure Shared Files]
+Applicable=Yes
+C:\Pmu3012\Consulta.exe=No
+C:\Pmu3012\usos.dat=No
+C:\Pmu3012\atividades.dat=No
+C:\Pmu3012\lei.dat=No
+C:\Pmu3012\Logradouros.dat=No
+C:\Pmu3012\observacoes.dat=No
+C:\Pmu3012\permissoes.dat=No
+C:\Pmu3012\tipos.dat=No
+C:\Pmu3012\trechos.dat=No
+C:\Pmu3012\antigos.dat=No
+C:\Pmu3012\IMAGENS\D1711.gif=No
+C:\Pmu3012\IMAGENS\D1712.gif=No
+C:\Pmu3012\IMAGENS\D1713.gif=No
+C:\Pmu3012\IMAGENS\D1714.gif=No
+C:\Pmu3012\IMAGENS\D1715.gif=No
+C:\Pmu3012\IMAGENS\D1716.gif=No
+C:\Pmu3012\IMAGENS\D1717.gif=No
+C:\Pmu3012\IMAGENS\D1718.gif=No
+C:\Pmu3012\IMAGENS\D1719.gif=No
+C:\Pmu3012\IMAGENS\D1720.gif=No
+C:\Pmu3012\IMAGENS\D1721.gif=No
+C:\Pmu3012\IMAGENS\D1722.gif=No
+C:\Pmu3012\IMAGENS\D1723.gif=No
+C:\Pmu3012\IMAGENS\D1724.gif=No
+C:\Pmu3012\IMAGENS\D1726.gif=No
+C:\Pmu3012\IMAGENS\D1727.gif=No
+C:\Pmu3012\IMAGENS\D1728.gif=No
+C:\Pmu3012\IMAGENS\D1729.gif=No
+C:\Pmu3012\IMAGENS\D1730.gif=No
+C:\Pmu3012\IMAGENS\D1731.gif=No
+C:\Pmu3012\IMAGENS\D1732.gif=No
+C:\Pmu3012\IMAGENS\D1810.gif=No
+C:\Pmu3012\IMAGENS\D1811.gif=No
+C:\Pmu3012\IMAGENS\D1812.gif=No
+C:\Pmu3012\IMAGENS\D1813.gif=No
+C:\Pmu3012\IMAGENS\D1814.gif=No
+C:\Pmu3012\IMAGENS\D1815.gif=No
+C:\Pmu3012\IMAGENS\D1816.gif=No
+C:\Pmu3012\IMAGENS\D1817.gif=No
+C:\Pmu3012\IMAGENS\D1818.gif=No
+C:\Pmu3012\IMAGENS\D1819.gif=No
+C:\Pmu3012\IMAGENS\D1820.gif=No
+C:\Pmu3012\IMAGENS\D1821.gif=No
+C:\Pmu3012\IMAGENS\D1822.gif=No
+C:\Pmu3012\IMAGENS\D1823.gif=No
+C:\Pmu3012\IMAGENS\D1824.gif=No
+C:\Pmu3012\IMAGENS\D1825.gif=No
+C:\Pmu3012\IMAGENS\D1826.gif=No
+C:\Pmu3012\IMAGENS\D1827.gif=No
+C:\Pmu3012\IMAGENS\D1828.gif=No
+C:\Pmu3012\IMAGENS\D1829.gif=No
+C:\Pmu3012\IMAGENS\D1830.gif=No
+C:\Pmu3012\IMAGENS\D1831.gif=No
+C:\Pmu3012\IMAGENS\D1832.gif=No
+C:\Pmu3012\IMAGENS\D1833.gif=No
+C:\Pmu3012\IMAGENS\D1834.gif=No
+C:\Pmu3012\IMAGENS\D1910.gif=No
+C:\Pmu3012\IMAGENS\D1911.gif=No
+C:\Pmu3012\IMAGENS\D1912.gif=No
+C:\Pmu3012\IMAGENS\D1913.gif=No
+C:\Pmu3012\IMAGENS\D1914.gif=No
+C:\Pmu3012\IMAGENS\D1915.gif=No
+C:\Pmu3012\IMAGENS\D1916.gif=No
+C:\Pmu3012\IMAGENS\D1917.gif=No
+C:\Pmu3012\IMAGENS\D1918.gif=No
+C:\Pmu3012\IMAGENS\D1919.gif=No
+C:\Pmu3012\IMAGENS\D1920.gif=No
+C:\Pmu3012\IMAGENS\D1921.gif=No
+C:\Pmu3012\IMAGENS\D1922.gif=No
+C:\Pmu3012\IMAGENS\D1923.gif=No
+C:\Pmu3012\IMAGENS\D1924.gif=No
+C:\Pmu3012\IMAGENS\D1925.gif=No
+C:\Pmu3012\IMAGENS\D1926.gif=No
+C:\Pmu3012\IMAGENS\D1927.gif=No
+C:\Pmu3012\IMAGENS\D1928.gif=No
+C:\Pmu3012\IMAGENS\D1929.gif=No
+C:\Pmu3012\IMAGENS\D1930.gif=No
+C:\Pmu3012\IMAGENS\D1931.gif=No
+C:\Pmu3012\IMAGENS\D1932.gif=No
+C:\Pmu3012\IMAGENS\D2010.gif=No
+C:\Pmu3012\IMAGENS\D2011.gif=No
+C:\Pmu3012\IMAGENS\D2012.gif=No
+C:\Pmu3012\IMAGENS\D2013.gif=No
+C:\Pmu3012\IMAGENS\D2014.gif=No
+C:\Pmu3012\IMAGENS\D2015.gif=No
+C:\Pmu3012\IMAGENS\D2016.gif=No
+C:\Pmu3012\IMAGENS\D2017.gif=No
+C:\Pmu3012\IMAGENS\D2018.gif=No
+C:\Pmu3012\IMAGENS\D2019.gif=No
+C:\Pmu3012\IMAGENS\D2020.gif=No
+C:\Pmu3012\IMAGENS\D2021.gif=No
+C:\Pmu3012\IMAGENS\D2022.gif=No
+C:\Pmu3012\IMAGENS\D2023.gif=No
+C:\Pmu3012\IMAGENS\D2024.gif=No
+C:\Pmu3012\IMAGENS\D2025.gif=No
+C:\Pmu3012\IMAGENS\D2026.gif=No
+C:\Pmu3012\IMAGENS\D2027.gif=No
+C:\Pmu3012\IMAGENS\D2028.gif=No
+C:\Pmu3012\IMAGENS\D2029.gif=No
+C:\Pmu3012\IMAGENS\D2030.gif=No
+C:\Pmu3012\IMAGENS\D2031.gif=No
+C:\Pmu3012\IMAGENS\D2032.gif=No
+C:\Pmu3012\IMAGENS\D2033.gif=No
+C:\Pmu3012\IMAGENS\D2034.gif=No
+C:\Pmu3012\IMAGENS\F1725.gif=No
+
+[Package|sucesso|Distribution]
+Type=single
+Size=
+Title=Consulta
+
+[Package|sucesso|IconGroups]
+Group0=Consulta
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|sucesso|Consulta]
+Icon1=Consulta.exe
+Title1=Consulta
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|sucesso|Package]
+PackageFolder=C:\INSTALA
+ProjectFolder=C:\Pmu3012
+ServerSideCab=
+File1=C:\INSTALA\setup.exe
+File2=C:\INSTALA\Setup.Lst
+File3=C:\INSTALA\Consulta.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|PMU-030106|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Pmu030106\instalar
+
+[Package|PMU-030106|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PMU-030106|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PMU-030106|Files Found]
+
+[Package|PMU-030106|Files Released]
+
+[Package|PMU-030106|Missing Dependency Information]
+
+[Package|PMU-030106|Out-of-Date Dependency Information]
+
+[Package|PMU-030106|Files Added]
+C:\Pmu030106\dexemplo.gif=
+C:\Pmu030106\antigos.dat=
+C:\Pmu030106\atividades.dat=
+C:\Pmu030106\lei.dat=
+C:\Pmu030106\Logradouros.dat=
+C:\Pmu030106\observacoes.dat=
+C:\Pmu030106\permissoes.dat=
+C:\Pmu030106\tipos.dat=
+C:\Pmu030106\trechos.dat=
+C:\Pmu030106\usos.dat=
+
+[Package|PMU-030106|Files Removed]
+
+[Package|PMU-030106|Files In Project]
+C:\Pmu030106\Consulta.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Pmu030106\dexemplo.gif=Yes
+C:\Pmu030106\antigos.dat=Yes
+C:\Pmu030106\atividades.dat=Yes
+C:\Pmu030106\lei.dat=Yes
+C:\Pmu030106\Logradouros.dat=Yes
+C:\Pmu030106\observacoes.dat=Yes
+C:\Pmu030106\permissoes.dat=Yes
+C:\Pmu030106\tipos.dat=Yes
+C:\Pmu030106\trechos.dat=Yes
+C:\Pmu030106\usos.dat=Yes
+
+[Package|PMU-030106|Configure Registry Files]
+Applicable=No
+
+[Package|PMU-030106|Configure Remote Servers]
+Applicable=No
+
+[Package|PMU-030106|Install Locations]
+C:\Pmu030106\Consulta.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Pmu030106\dexemplo.gif=$(AppPath)
+C:\Pmu030106\antigos.dat=$(AppPath)
+C:\Pmu030106\atividades.dat=$(AppPath)
+C:\Pmu030106\lei.dat=$(AppPath)
+C:\Pmu030106\Logradouros.dat=$(AppPath)
+C:\Pmu030106\observacoes.dat=$(AppPath)
+C:\Pmu030106\permissoes.dat=$(AppPath)
+C:\Pmu030106\tipos.dat=$(AppPath)
+C:\Pmu030106\trechos.dat=$(AppPath)
+C:\Pmu030106\usos.dat=$(AppPath)
+
+[Package|PMU-030106|Configure Shared Files]
+Applicable=Yes
+C:\Pmu030106\Consulta.exe=No
+C:\Pmu030106\dexemplo.gif=No
+C:\Pmu030106\antigos.dat=No
+C:\Pmu030106\atividades.dat=No
+C:\Pmu030106\lei.dat=No
+C:\Pmu030106\Logradouros.dat=No
+C:\Pmu030106\observacoes.dat=No
+C:\Pmu030106\permissoes.dat=No
+C:\Pmu030106\tipos.dat=No
+C:\Pmu030106\trechos.dat=No
+C:\Pmu030106\usos.dat=No
+
+[Package|PMU-030106|Distribution]
+Type=single
+Size=
+Title=PMU - Consulta Prévia
+
+[Package|PMU-030106|IconGroups]
+Group0=PMU - Consulta Prévia
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|PMU-030106|PMU - Consulta Prévia]
+Icon1=Consulta.exe
+Title1=PMU - Consulta Prévia
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PMU-030106|Package]
+PackageFolder=C:\Pmu030106\instalar
+ProjectFolder=C:\Pmu030106
+ServerSideCab=
+File1=C:\Pmu030106\instalar\setup.exe
+File2=C:\Pmu030106\instalar\Setup.Lst
+File3=C:\Pmu030106\instalar\Consulta.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|NOVOME|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Meus documentos\NOVO\instala
+
+[Package|NOVOME|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NOVOME|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NOVOME|Files Found]
+
+[Package|NOVOME|Files Released]
+
+[Package|NOVOME|Missing Dependency Information]
+
+[Package|NOVOME|Out-of-Date Dependency Information]
+
+[Package|NOVOME|Files Added]
+d:\meus documentos\novo\connected_multiple_ghost.jpg=
+d:\meus documentos\novo\atividades.dat=
+d:\meus documentos\novo\lei.dat=
+d:\meus documentos\novo\logradouros.dat=
+d:\meus documentos\novo\observacoes.dat=
+d:\meus documentos\novo\permissoes.dat=
+d:\meus documentos\novo\tipos.dat=
+d:\meus documentos\novo\trechos.dat=
+d:\meus documentos\novo\usos.dat=
+d:\meus documentos\novo\dexemplo.gif=
+d:\meus documentos\novo\antigos.dat=
+D:\Meus documentos\NOVO\START.JPG=
+D:\Meus documentos\NOVO\BairrosColoridosminiatura.bmp=
+
+[Package|NOVOME|Files Removed]
+
+[Package|NOVOME|Files In Project]
+D:\Meus documentos\NOVO\Consulta.exe=Yes
+D:\WINDOWS\SYSTEM\MSVBVM60.dll=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\SYSTEM\vb6stkit.dll=Yes
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Meus documentos\NOVO\connected_multiple_ghost.jpg=Yes
+D:\Meus documentos\NOVO\atividades.dat=Yes
+D:\Meus documentos\NOVO\LEI.DAT=Yes
+D:\Meus documentos\NOVO\Logradouros.dat=Yes
+D:\Meus documentos\NOVO\observacoes.dat=Yes
+D:\Meus documentos\NOVO\permissoes.dat=Yes
+D:\Meus documentos\NOVO\TIPOS.DAT=Yes
+D:\Meus documentos\NOVO\TRECHOS.DAT=Yes
+D:\Meus documentos\NOVO\USOS.DAT=Yes
+D:\Meus documentos\NOVO\DEXEMPLO.GIF=Yes
+D:\Meus documentos\NOVO\ANTIGOS.DAT=Yes
+D:\Meus documentos\NOVO\START.JPG=Yes
+D:\Meus documentos\NOVO\BairrosColoridosminiatura.bmp=Yes
+
+[Package|NOVOME|Configure Registry Files]
+Applicable=No
+
+[Package|NOVOME|Configure Remote Servers]
+Applicable=No
+
+[Package|NOVOME|Install Locations]
+D:\Meus documentos\NOVO\Consulta.exe=$(AppPath)
+D:\WINDOWS\SYSTEM\MSVBVM60.dll=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\SYSTEM\vb6stkit.dll=$(WinSysPathSysFile)
+D:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Meus documentos\NOVO\connected_multiple_ghost.jpg=$(AppPath)
+D:\Meus documentos\NOVO\atividades.dat=$(AppPath)
+D:\Meus documentos\NOVO\LEI.DAT=$(AppPath)
+D:\Meus documentos\NOVO\Logradouros.dat=$(AppPath)
+D:\Meus documentos\NOVO\observacoes.dat=$(AppPath)
+D:\Meus documentos\NOVO\permissoes.dat=$(AppPath)
+D:\Meus documentos\NOVO\TIPOS.DAT=$(AppPath)
+D:\Meus documentos\NOVO\TRECHOS.DAT=$(AppPath)
+D:\Meus documentos\NOVO\USOS.DAT=$(AppPath)
+D:\Meus documentos\NOVO\DEXEMPLO.GIF=$(AppPath)
+D:\Meus documentos\NOVO\ANTIGOS.DAT=$(AppPath)
+D:\Meus documentos\NOVO\START.JPG=$(AppPath)
+D:\Meus documentos\NOVO\BairrosColoridosminiatura.bmp=$(AppPath)
+
+[Package|NOVOME|Configure Shared Files]
+Applicable=Yes
+D:\Meus documentos\NOVO\Consulta.exe=No
+D:\Meus documentos\NOVO\connected_multiple_ghost.jpg=No
+D:\Meus documentos\NOVO\atividades.dat=No
+D:\Meus documentos\NOVO\LEI.DAT=No
+D:\Meus documentos\NOVO\Logradouros.dat=No
+D:\Meus documentos\NOVO\observacoes.dat=No
+D:\Meus documentos\NOVO\permissoes.dat=No
+D:\Meus documentos\NOVO\TIPOS.DAT=No
+D:\Meus documentos\NOVO\TRECHOS.DAT=No
+D:\Meus documentos\NOVO\USOS.DAT=No
+D:\Meus documentos\NOVO\DEXEMPLO.GIF=No
+D:\Meus documentos\NOVO\ANTIGOS.DAT=No
+D:\Meus documentos\NOVO\START.JPG=No
+D:\Meus documentos\NOVO\BairrosColoridosminiatura.bmp=No
+
+[Package|NOVOME|Distribution]
+Type=single
+Size=
+Title=PMU - Sistema de Consulta Prévia 2006
+
+[Package|NOVOME|Package]
+PackageFolder=D:\Meus documentos\NOVO\instala
+ProjectFolder=D:\Meus documentos\NOVO
+ServerSideCab=
+File1=D:\Meus documentos\NOVO\instala\setup.exe
+File2=D:\Meus documentos\NOVO\instala\Setup.Lst
+File3=D:\Meus documentos\NOVO\instala\Consulta.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|NOVOME|IconGroups]
+Group0=PMU-Sistema de Consulta Prévia
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|NOVOME|PMU-Sistema de Consulta Prévia]
+Icon1=Consulta.exe
+Title1=PMU-Sistema de Consulta Prévia
+StartIn1=$(AppPath)
+Key1=Icon1
